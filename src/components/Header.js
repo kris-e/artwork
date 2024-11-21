@@ -1,73 +1,54 @@
-import { Accordion } from "react-bootstrap";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 const Header = () => {
   return (
     <header className="main-header">
-      <nav className="navbar header-nav navbar-expand-lg one-page-nav">
-        <div className="container">
-          {/* Brand */}
-          <a className="navbar-brand" href="#">
-            Kristin Erken - Artist
-          </a>
-          {/* / */}
-          <Accordion>
-            {/* Mobile Toggle */}
-            <Accordion.Toggle
-              eventKey={"toggle"}
-              as={"button"}
-              className="navbar-toggler"
-            >
-              <span />
-              <span />
-              <span />
-            </Accordion.Toggle>
-            {/* / */}
-            {/* Top Menu */}
-            <Accordion.Collapse
-              eventKey={"toggle"}
-              className="navbar-collapse justify-content-end"
-            >
-              <ul className="navbar-nav mx-auto">
-                <li>
-                  <a className="nav-link active" href="#home">
-                    <span>Home</span>
-                  </a>
-                </li>
-                <li>
-                  <a className="nav-link" href="#services">
-                    <span>Services</span>
-                  </a>
-                </li>
-                <li>
-                  <a className="nav-link" href="#skill">
-                    <span>Skills</span>
-                  </a>
-                </li>
-                <li>
-                  <a className="nav-link" href="#work">
-                    <span>Portfolio</span>
-                  </a>
-                </li>
-                <li>
-                  <a className="nav-link" href="#contactus">
-                    <span>Contact</span>
-                  </a>
-                </li>
-              </ul>
-            </Accordion.Collapse>
-          </Accordion>
-          {/* / */}
-          {/* Top Menu */}
-          {/* <div className="ms-auto d-none d-lg-block">
-            <a className="px-btn px-btn-theme2" href="#contactus">
-              Contact Now
-            </a>
-          </div> */}
-          {/* / */}
-        </div>
-        {/* Container */}
-      </nav>{" "}
-      {/* Navbar */}
+      <Navbar expand="lg">
+          <Container >
+            <Navbar.Brand href="#">
+              Kristin Erken - Artist
+            </Navbar.Brand>
+              {/* Mobile Toggle */}
+              <Navbar.Toggle
+                aria-controls="menu-nav"
+              />
+              {/* Top Menu */}
+              <Navbar.Collapse
+                id="menu-nav"
+                className="navbar-collapse justify-content-end"
+              >
+                <ul className="navbar-nav mx-auto">
+                  <li>
+                    <a className="nav-link active" href="#home">
+                      <span>Home</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a className="nav-link" href="#services">
+                      <span>Services</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a className="nav-link" href="#skill">
+                      <span>Skills</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a className="nav-link" href="#work">
+                      <span>Portfolio</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a className="nav-link" href="#contactus">
+                      <span>Contact</span>
+                    </a>
+                  </li>
+                </ul>
+              </Navbar.Collapse>
+          </Container>
+        </Navbar>
     </header>
   );
 };
