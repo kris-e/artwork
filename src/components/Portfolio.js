@@ -1,43 +1,6 @@
 import SectionTitle from "./SectionTitle";
-
-const portfolioData = [
-  {
-    id: 1,
-    title: "Agency Landing page",
-    subtitle: "Web/WordPress",
-    image: "assets/img/project-1.jpg",
-  },
-  {
-    id: 2,
-    title: "Agency Landing page",
-    subtitle: "Web/WordPress",
-    image: "assets/img/project-2.jpg",
-  },
-  {
-    id: 3,
-    title: "Agency Landing page",
-    subtitle: "Web/WordPress",
-    image: "assets/img/project-3.jpg",
-  },
-  {
-    id: 4,
-    title: "Agency Landing page",
-    subtitle: "Web/WordPress",
-    image: "assets/img/project-4.jpg",
-  },
-  {
-    id: 5,
-    title: "Agency Landing page",
-    subtitle: "Web/WordPress",
-    image: "assets/img/project-5.jpg",
-  },
-  {
-    id: 6,
-    title: "Agency Landing page",
-    subtitle: "Web/WordPress",
-    image: "assets/img/project-6.jpg",
-  },
-];
+import Image from 'next/image';
+import { portfolioData } from "./ImageData";
 
 const Portfolio = () => {
   return (
@@ -50,12 +13,21 @@ const Portfolio = () => {
               <div className="portfolio-box">
                 <div className="portfolio-img">
                   <a href={portfolio.image} className="gallery-link">
-                    <img src={portfolio.image} alt="image" />
+                    <Image
+                      src={portfolio.image}
+                      alt="image"
+                      blurDataURL="data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWEREiMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+                      placeholder="blur"
+                      width={1000}
+                      height={745}
+                      style={{width: '100%', height: 'auto'}}
+                      />
                   </a>
                 </div>
                 <div className="portfolio-info">
                   <h6>{portfolio.title}</h6>
                   <span>{portfolio.subtitle}</span>
+                  <p>{portfolio.format}</p>
                   <a href={portfolio.image} className="gallery-link">
                     <i className="fas fa-arrow-right" />
                   </a>
