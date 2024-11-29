@@ -29,10 +29,10 @@
   },
   {
     id: 5,
-    title: "Earthlings I-III Triptych",
-    subtitle: "Acrylic on wood",
-    format: "3 x A3 format",
-    image: "/assets/img/Earthlings-I-III.jpg",
+    title: "Solo Exhibition at Elms Window Gallery, Leyton, London, UK",
+    subtitle: "Selected works",
+    format: "Various formats",
+    videoId: "mR5TG3XNDYc",
   },
   {
     id: 6,
@@ -64,9 +64,23 @@
   },
   {
     id: 10,
-    title: "KitKat n Chewy",
-    subtitle: "Diptych - Acrylic on canvas",
-    format: "2 x 5x7 inch canvas",
-    image: "/assets/img/KitKatnChewy.jpg",
+    title: "KitKat",
+    subtitle: "Acrylic on canvas",
+    format: "5x7 inch canvas",
+    image: "/assets/img/KitKat.jpg",
+  },
+  {
+    id: 11,
+    title: "Chewy",
+    subtitle: "Acrylic on canvas",
+    format: "5x7 inch canvas",
+    image: "/assets/img/Chewy.jpg",
+  },
+  {
+    id: 12,
+    title: "Grove Garden",
+    subtitle: "Acrylic on wood",
+    format: "600 x 400 cm",
+    image: "/assets/img/GroveGarden.jpg",
   },
 ];

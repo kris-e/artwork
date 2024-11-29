@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "^15.0.3",
     "emailjs-com": "^3.2.0",
     "swiper": "^9.2.0"
   },
