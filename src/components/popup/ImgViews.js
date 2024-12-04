@@ -1,7 +1,7 @@
-import { Fragment, useEffect, useState } from "react";
+import { Fragment } from "react";
 import useClickOutside from "../../useClickOutside";
 
-const ImgViews = ({ close, src }) => {
+const ImgViews = ({ close, src, isVideo }) => {
   let domNode = useClickOutside(() => {
     close(false);
   });
@@ -18,7 +18,16 @@ const ImgViews = ({ close, src }) => {
         >
           <div className="mfp-content" ref={domNode}>
             <div className="mfp-iframe-scaler">
-              <img className="mfp-img" src={src} />
+              {isVideo ? (
+                <iframe
+                  className="mfp-iframe"
+                  src={src}
+                  allowFullScreen
+                  style={{ width: "100%", height: "100%" }}
+                ></iframe>
+              ) : (
+                <img className="mfp-img" src={src} alt="popup-content" />
+              )}
             </div>
           </div>
           <div className="mfp-preloader">Loading...</div>

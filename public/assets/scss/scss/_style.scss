@@ -135,10 +135,10 @@ main {
         }
         span {
             display: inline-block;
-            border: 1px solid $px-theme;
-            padding: 8px 20px;
+            border-bottom: 1px solid $px-theme;
+            padding: 8px 0px;
             color: $px-theme;
-            transform: rotate(-15deg);
+            // transform: rotate(-15deg);
         }
     }
     h3 {
@@ -186,7 +186,7 @@ main {
     }
 
     @include down-sm {
-        padding-top: 60px;
+        padding-top: 100px;
         padding-bottom: 60px;
     }
 }
@@ -380,13 +380,28 @@ main {
         font-size: 32px;
         font-weight: 600;
     }
+    ol {
+        list-style: none; /* Remove default bullets or numbering */
+        padding-left: 0; /* Remove left padding */
+    }
+    ol li {
+        margin-bottom: 10px; /* Add spacing between items */
+        position: relative; /* Position for pseudo-element */
+        padding-left: 5rem; /* Space for year "bullet" */
+    }
+    ol li::before {
+        content: attr(data-year); /* Use the custom year as content */
+        position: absolute;
+        left: 0;
+        font-weight: bold; /* Make it stand out */
+    }
     ul {
         margin: 0;
         padding: 0;
         list-style: none;
     }
     li {
-        display: flex;
+        // display: flex;
         padding: 20px 0;
         border-top: 2px solid $px-dark;
         h6 {

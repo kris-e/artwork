@@ -11,33 +11,23 @@ const Header = () => {
               Kristin Erken - Artist
             </Navbar.Brand>
               {/* Mobile Toggle */}
-              <Navbar.Toggle
+              {/* <Navbar.Toggle
                 aria-controls="menu-nav"
-              />
+              /> */}
               {/* Top Menu */}
-              <Navbar.Collapse
+              <Navbar
                 id="menu-nav"
                 className="navbar-collapse justify-content-end"
               >
                 <ul className="navbar-nav mx-auto">
                   <li>
-                    <a className="nav-link active" href="#home">
-                      <span>Home</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a className="nav-link" href="#services">
-                      <span>Services</span>
+                    <a className="nav-link" href="#work">
+                      <span>Work</span>
                     </a>
                   </li>
                   <li>
                     <a className="nav-link" href="#skill">
-                      <span>Skills</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a className="nav-link" href="#work">
-                      <span>Portfolio</span>
+                      <span>About</span>
                     </a>
                   </li>
                   <li>
@@ -45,8 +35,13 @@ const Header = () => {
                       <span>Contact</span>
                     </a>
                   </li>
+                  <li>
+                    <a className="nav-link" href="https://www.instagram.com/kristin.erken/" target='_blank'>
+                      <span className='icon' style={{fontSize: 24 + 'px'}}><i className='fab fa-instagram'></i></span>
+                    </a>
+                  </li>
                 </ul>
-              </Navbar.Collapse>
+              </Navbar>
           </Container>
         </Navbar>
     </header>

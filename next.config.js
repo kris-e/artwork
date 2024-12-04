@@ -8,6 +8,14 @@ const nextConfig = {
         search: '',
       },
     ],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**.youtube.com',
+        port: '',
+        search: '',
+      },
+    ],
   },
 }
 

@@ -18,7 +18,7 @@ const Home = () => {
                 Portfolio of Work
               </h1>
               <p>
-                Kristin is a visual artist working primarily in painting and photography and other mediums.
+                Kristin is a visual artist working primarily in painting, drawing and photography.
               </p>
               <div className="btn-bar">
                 <a className="px-btn px-btn-theme" href="#contactus">

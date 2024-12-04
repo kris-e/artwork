@@ -8,7 +8,7 @@ export const boston = {
       sections.forEach((section) => {
         const sectionTop = section.offsetTop;
         const sectionHeight = section.clientHeight;
-        if (pageYOffset >= sectionTop - sectionHeight / 3) {
+        if (scrollY >= sectionTop - sectionHeight / 3) {
           current = section.getAttribute("id");
         }
       });

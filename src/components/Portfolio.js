@@ -2,10 +2,19 @@ import SectionTitle from "./SectionTitle";
 import Image from 'next/image';
 import { portfolioData } from "./ImageData";
 
-import { Suspense } from 'react'
-import VideoComponent from './Video'
+import { useState } from 'react'
+// import VideoComponent from './Video'
+import ImgViews from "./popup/ImgViews";
 
 const Portfolio = () => {
+  const [popupContent, setPopupContent] = useState({ src: "", isVideo: false });
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const openPopup = (src, isVideo) => {
+    setPopupContent({ src, isVideo });
+    setIsPopupOpen(true);
+  };
+
   return (
     <section id="work" className="section work-section bg-gray">
       <div className="container">
@@ -15,38 +24,59 @@ const Portfolio = () => {
             <div className="col-sm-6 col-lg-4" key={portfolio.id}>
               <div className="portfolio-box">
                 <div className="portfolio-img">
-                  {portfolio.videoId  ?
-                    <Suspense fallback={<p>Loading video...</p>}>
-                      <VideoComponent
-                        videoId={portfolio.videoId}
+                {portfolio.videoId ? (
+                    <div style={{ cursor: "pointer" }}>
+                      <Image
+                        src={`https://img.youtube.com/vi/${portfolio.videoId}/hqdefault.jpg`}
+                        alt="video-thumbnail"
+                        width={439}
+                        height={276}
+                        style={{ width: "100%", height: "auto" }}
+                        onClick={() =>
+                          openPopup(`https://www.youtube.com/embed/${portfolio.videoId}`, true)
+                        }
                       />
-                    </Suspense>
-                    :
-                    <a href={portfolio.image} className="gallery-link">
+                    </div>
+                  ) : (
+                    <div style={{ cursor: "pointer" }}>
                       <Image
                         src={portfolio.image}
                         alt="image"
-                        blurDataURL="data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWEREiMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
+                        blurDataURL="..."
                         placeholder="blur"
                         width={1000}
                         height={745}
-                        style={{width: '100%', height: 'auto'}}
-                        />
-                    </a>
-                  }
+                        style={{ width: "100%", height: "auto" }}
+                        onClick={() => openPopup(portfolio.image, false)}
+                      />
+                    </div>
+                  )}
                 </div>
-                <div className="portfolio-info">
+                <div
+                  className="portfolio-info"
+                  onClick={() =>
+                    portfolio.videoId
+                      ? openPopup(`https://www.youtube.com/embed/${portfolio.videoId}`, true)
+                      : openPopup(portfolio.image, false)
+                  }
+                  style={{ cursor: "pointer" }}
+                >
                   <h6>{portfolio.title}</h6>
                   <span>{portfolio.subtitle}</span>
                   <p>{portfolio.format}</p>
-                  <a href={portfolio.image} className="gallery-link">
-                    <i className="fas fa-arrow-right" />
-                  </a>
+                  <i className="fas fa-arrow-right" />
                 </div>
               </div>
             </div>
           ))}
         </div>
+        {isPopupOpen && (
+          <ImgViews
+            close={setIsPopupOpen}
+            src={popupContent.src}
+            isVideo={popupContent.isVideo}
+          />
+        )}
       </div>
     </section>
   );

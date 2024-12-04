@@ -34,15 +34,15 @@ Primary use:    pxdraft
   background: #fff;
 }
 .main-header .navbar {
-  padding: 5px 0;
+  padding: 5px 0 0;
 }
 .main-header .navbar-brand {
-  margin: 0.75rem 0;
+  margin: 0.6rem 0.7rem 0.3rem 0;
   color: transparent !important;
   background-image: url("../img/logo_kristinerken.svg");
   background-repeat: no-repeat;
-  background-size: 400px;
-  height: 80px;
+  background-size: 300px;
+  height: 50px;
   width: 450px;
 }
 .main-header .navbar-nav > li > .nav-link {
@@ -282,11 +282,9 @@ main {
 }
 .section-heading h6 span {
   display: inline-block;
-  border: 1px solid #5C64CF;
-  padding: 8px 20px;
+  border-bottom: 1px solid #5C64CF;
+  padding: 8px 0px;
   color: #5C64CF;
-  -webkit-transform: rotate(-15deg);
-          transform: rotate(-15deg);
 }
 .section-heading h3 {
   font-size: 55px;
@@ -338,7 +336,7 @@ main {
 }
 @media (max-width: 767px) {
   .section {
-    padding-top: 60px;
+    padding-top: 100px;
     padding-bottom: 60px;
   }
 }
@@ -550,15 +548,27 @@ main {
   font-size: 32px;
   font-weight: 600;
 }
+.experience-box ol {
+  list-style: none; /* Remove default bullets or numbering */
+  padding-left: 0; /* Remove left padding */
+}
+.experience-box ol li {
+  margin-bottom: 10px; /* Add spacing between items */
+  position: relative; /* Position for pseudo-element */
+  padding-left: 5rem; /* Space for year "bullet" */
+}
+.experience-box ol li::before {
+  content: attr(data-year); /* Use the custom year as content */
+  position: absolute;
+  left: 0;
+  font-weight: bold; /* Make it stand out */
+}
 .experience-box ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 .experience-box li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding: 20px 0;
   border-top: 2px solid #18171C;
 }

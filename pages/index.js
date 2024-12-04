@@ -30,16 +30,16 @@ const Index = () => {
         <Home />
         {/* End Home Section */}
         {/* Services Section */}
-        <Services />
+        {/* <Services /> */}
         {/* End Services Section */}
+         {/* Work Section */}
+         <Portfolio />
+        {/* End Work Section */}
         {/* Skill Section */}
         <Skill />
         {/* End Skill Section */}
-        {/* Work Section */}
-        <Portfolio />
-        {/* End Work Section */}
         {/* testimonial Section */}
-        <Testimonial />
+        {/* <Testimonial /> */}
         {/* End testimonial Section */}
         {/* Contact Section */}
         <Contact />
