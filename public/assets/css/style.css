@@ -140,7 +140,7 @@ Primary use:    pxdraft
 }
 
 .bg-gray {
-  background: rgba(247, 175, 36, 0.1);
+  background: rgba(210, 199, 217, 0.35);
 }
 
 @media (prefers-reduced-motion: no-preference) {

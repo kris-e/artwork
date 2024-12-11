@@ -7,7 +7,7 @@ const Header = () => {
     <header className="main-header">
       <Navbar expand="lg">
           <Container >
-            <Navbar.Brand href="#">
+            <Navbar.Brand href="#work">
               Kristin Erken - Artist
             </Navbar.Brand>
               {/* Mobile Toggle */}

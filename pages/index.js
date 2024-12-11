@@ -27,7 +27,7 @@ const Index = () => {
       {/* Main */}
       <main className="wrapper">
         {/* Home Section */}
-        <Home />
+        {/* <Home /> */}
         {/* End Home Section */}
         {/* Services Section */}
         {/* <Services /> */}

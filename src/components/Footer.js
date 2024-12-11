@@ -12,7 +12,7 @@ const Footer = () => {
           </div>
           <div className="col-md-6 py-2 text-center text-md-end">
             <p className="m-0">
-              © {new Date().getFullYear()} copyright all right reserved
+              © {new Date().getFullYear()} copyright all rights reserved
             </p>
           </div>
         </div>

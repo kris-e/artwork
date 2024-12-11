@@ -18,7 +18,7 @@ const Portfolio = () => {
   return (
     <section id="work" className="section work-section bg-gray">
       <div className="container">
-        <SectionTitle heading={"Latest Projects"} subHeading={"Portfolio"} />
+        <SectionTitle heading={"Paintings"} subHeading={"Portfolio"} />
         <div className="row g-4 lightbox-gallery">
           {portfolioData.map((portfolio) => (
             <div className="col-sm-6 col-lg-4" key={portfolio.id}>
