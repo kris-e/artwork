@@ -12,9 +12,9 @@ const contactInfo = [
   },
   {
     id: 3,
-    label: "Instagram",
-    value: "https://www.instagram.com/kristin.erken/",
-    icon: "fab fa-instagram",
+    label: "Website",
+    value: "https://www.kristinerken.com/",
+    icon: "fab fa-html5",
   },
 ];
 

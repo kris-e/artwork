@@ -119,13 +119,6 @@
     image: "/assets/img/heart-of-a-tree.jpg",
   },
   {
-    id: 26,
-    title: "Corporeal",
-    subtitle: "Acrylic on wood",
-    format: "122 x 213 cm",
-    image: "/assets/img/Corporeal.jpg",
-  },
-  {
     id: 18,
     title: "Untitled",
     subtitle: "Acrylic on wood",
@@ -181,5 +174,11 @@
     format: "50 x 10cm",
     image: "/assets/img/snailscape.jpg",
   },
-
+  {
+    id: 26,
+    title: "Think about it",
+    subtitle: "Acrylic on slate",
+    format: "122 x 105 cm",
+    image: "/assets/img/ThinkAboutIt.jpg",
+  },
 ];

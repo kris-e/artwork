@@ -18,7 +18,7 @@ const Portfolio = () => {
   return (
     <section id="work" className="section work-section bg-gray">
       <div className="container">
-        <SectionTitle heading={"Paintings"} subHeading={"Portfolio"} />
+        <SectionTitle heading={"Selected paintings"} subHeading={"Portfolio"} />
         <div className="row g-4 lightbox-gallery">
           {portfolioData.map((portfolio) => (
             <div className="col-sm-6 col-lg-4" key={portfolio.id}>
@@ -44,8 +44,8 @@ const Portfolio = () => {
                         alt="image"
                         blurDataURL="..."
                         placeholder="blur"
-                        width={1000}
-                        height={745}
+                        width={720}
+                        height={675}
                         style={{ width: "100%", height: "auto" }}
                         onClick={() => openPopup(portfolio.image, false)}
                       />
