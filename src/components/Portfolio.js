@@ -1,10 +1,10 @@
 import SectionTitle from "./SectionTitle";
 import Image from 'next/image';
 import { portfolioData } from "./ImageData";
-
+// import { Imageloader } from "../loader";
 import { useState } from 'react'
-// import VideoComponent from './Video'
 import ImgViews from "./popup/ImgViews";
+
 
 const Portfolio = () => {
   const [popupContent, setPopupContent] = useState({ src: "", isVideo: false });
