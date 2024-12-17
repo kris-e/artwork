@@ -5,22 +5,6 @@ const VideoView = ()=> {
   const [video, setVideo] = useState(false);
   const [vidUrl, setVidUrl] = useState(null);
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //   const vid = document.querySelectorAll("iframe");
-  //   vid.forEach((vid) => {
-  //     if(vid.src.includes("https://youtube.com/")) {
-  //       if (vid.getAttribute("download") === null) {
-  //         vid.addEventListener("click", (e) => {
-  //           e.preventDefault();
-  //           setVidUrl(vid.src);
-  //           setVideo(true);
-  //         });
-  //         }
-  //       }
-  //     })
-  //   }, 1500);
-  // }, []);
   useEffect(() => {
     const vid = document.querySelectorAll("iframe");
     vid.forEach((vid) => {
