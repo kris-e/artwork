@@ -1,7 +1,7 @@
 import SectionTitle from "./SectionTitle";
 import Image from 'next/image';
 import { portfolioData } from "./ImageData";
-// import { Imageloader } from "../loader";
+// import { ImageLoader } from "../loader";
 import { useState } from 'react'
 import ImgViews from "./popup/ImgViews";
 
@@ -26,6 +26,7 @@ const Portfolio = () => {
                 {portfolio.videoId ? (
                     <div style={{ cursor: "pointer" }}>
                       <Image
+                        // loader={ImageLoader}
                         src={`https://img.youtube.com/vi/${portfolio.videoId}/hqdefault.jpg`}
                         alt="video-thumbnail"
                         width={439}
@@ -39,6 +40,7 @@ const Portfolio = () => {
                   ) : (
                     <div style={{ cursor: "pointer" }}>
                       <Image
+                      // loader={ImageLoader}
                         src={portfolio.image}
                         alt="image"
                         blurDataURL="..."

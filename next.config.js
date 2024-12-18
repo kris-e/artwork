@@ -7,6 +7,8 @@ const nextConfig = {
   distDir: 'dist',
   reactStrictMode: true,
   images: {
+    // loader: 'custom',
+    // loaderFile: './src/loader.js',
     unoptimized: true,
     localPatterns: [
       {
@@ -23,7 +25,7 @@ const nextConfig = {
       },
     ],
   },
-  assetPrefix: isProd ? 'kristinerken.com/' : '',
+  assetPrefix: isProd ? '' : '',
   basePath: isProd ? '' : '',
 }
 
