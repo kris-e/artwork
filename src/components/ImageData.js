@@ -134,6 +134,13 @@
   },
   {
     id: 19,
+    title: "Limb-o",
+    subtitle: "Acrylic on wood",
+    format: "150 x 90.5cm",
+    image: "/assets/img/Limb-o.jpg",
+  },
+  {
+    id: 19,
     title: "Fishbone",
     subtitle: "Acrylic on slate",
     format: "25 x 15cm",
