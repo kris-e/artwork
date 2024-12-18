@@ -25,7 +25,6 @@ export default function App({ Component, pageProps }) {
         <meta name="description" content="Kristin Erken - Artist" />
         <title>Kristin Erken - Artist</title>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-        <link href="assets/css/style.css" rel="stylesheet" />
       </Head>
       <Fragment>
       {loader && <Preloader />}
