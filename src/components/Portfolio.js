@@ -5,7 +5,6 @@ import { portfolioData } from "./ImageData";
 import { useState } from 'react'
 import ImgViews from "./popup/ImgViews";
 
-
 const Portfolio = () => {
   const [popupContent, setPopupContent] = useState({ src: "", isVideo: false });
   const [isPopupOpen, setIsPopupOpen] = useState(false);
