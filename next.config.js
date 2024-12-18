@@ -24,7 +24,7 @@ const nextConfig = {
     ],
   },
   assetPrefix: isProd ? 'kristinerken.com/' : '',
-  basePath: isProd ? '/assets/img' : '',
+  basePath: isProd ? '' : '',
 }
 
 module.exports = nextConfig
