@@ -1,11 +1,13 @@
 /** @type {import('next').NextConfig} */
+// env variable for prod
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
-  output: "export",
+  output: 'export',
   distDir: 'dist',
   reactStrictMode: true,
   images: {
-    loader: 'custom',
-    loaderFile: './src/loader.js',
+    unoptimized: true,
     localPatterns: [
       {
         pathname: '/assets/img/**',
@@ -21,6 +23,8 @@ const nextConfig = {
       },
     ],
   },
+  assetPrefix: isProd ? 'kristinerken.com/' : '',
+  basePath: isProd ? 'kristinerken.com/' : '',
 }
 
 module.exports = nextConfig

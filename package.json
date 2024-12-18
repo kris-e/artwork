@@ -1,6 +1,7 @@
 {
-  "name": "boston-react",
+  "name": "kristinerken.com",
   "version": "0.1.0",
+  "homepage": "https://kristinerken.com",
   "private": true,
   "scripts": {
     "dev": "next dev",
