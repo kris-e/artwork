@@ -57,6 +57,11 @@ Primary use:    pxdraft
   padding: 9px 20px;
   border-radius: 30px;
 }
+@media (max-width: 567px) {
+  .main-header .navbar-nav > li > .nav-link span {
+    padding: 9px 10px;
+  }
+}
 .main-header .navbar-nav > li > .nav-link.active span {
   background: #F7AF24;
 }
@@ -98,7 +103,7 @@ Primary use:    pxdraft
   padding-bottom: 10px;
 }
 .footer .nav a {
-  font-size: 16px;
+  font-size: 28px;
   color: #555;
 }
 .footer .nav a:hover {
@@ -465,8 +470,8 @@ main {
 }
 .feature-box-01 .icon {
   margin-top: 25px;
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   line-height: 1;
   display: -webkit-box;
@@ -830,6 +835,12 @@ main {
           justify-content: center;
   font-size: 25px;
 }
+@media (max-width: 567px) {
+  .contact-infos .icon {
+    width: 45px;
+    height: 45px;
+  }
+}
 .contact-infos .col {
   padding-left: 15px;
 }
@@ -843,8 +854,8 @@ main {
   color: #18171C;
   font-weight: 600;
 }
-@media (max-width: 767px) {
+@media (max-width: 567px) {
   .contact-infos p {
-    font-size: 20px;
+    font-size: 16px;
   }
 }/*# sourceMappingURL=style.css.map */

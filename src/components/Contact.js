@@ -7,13 +7,14 @@ const contactInfo = [
   {
     id: 2,
     label: "Instagram",
-    value: "https://www.instagram.com/kristin.erken/",
+    value: "instagram.com/kristin.erken/",
+    href: "https://instagram.com/kristin.erken/",
     icon: "fab fa-instagram",
   },
   {
     id: 3,
     label: "Website",
-    value: "https://www.kristinerken.com/",
+    value: "kristinerken.com/",
     icon: "fab fa-html5",
   },
 ];
@@ -81,7 +82,11 @@ const Contact = () => {
                   </div>
                   <div className="col">
                     <h5>{contact.label}</h5>
-                    <p>{contact.value}</p>
+                    {contact.href ? (
+                      <p><a href={contact.href}>{contact.value}</a></p>
+                    ) : (
+                      <p>{contact.value}</p>
+                    )}
                   </div>
                 </li>
               ))}
