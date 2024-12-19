@@ -169,7 +169,6 @@ img {
 
 a {
   color: #5C64CF;
-  text-decoration: none;
 }
 a:hover {
   color: #3c46c6;
@@ -798,6 +797,9 @@ main {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+.contact-infos a {
+  text-decoration: none;
 }
 .contact-infos li {
   display: -webkit-box;

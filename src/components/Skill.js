@@ -27,7 +27,7 @@ const Skill = () => {
                 <li data-year="2008">Changing Room Gallery (now Winns Gallery), Lloyd Park, Walthamstow, London, ‘Any Colour as Long as it’s Green’, Friends of the Earth exhibition, painting shown</li>
                 <li data-year="2007">- Stoke Newington Festival, June, with The Others venue, sculpture and paintings shown <br />
                 - 'Climate of Change', Union street, SE1 curated by londonart.co.uk, sponsored by ASC Studios, mixed media photography and light installations of mine shown</li>
-                <li data-year="2006">- ‘Uplift and Inspire, An Adbusters Intervention’, an independent exhibition event by artists on the District and Circle Lines. <a href="https://drive.google.com/file/d/1yMeBmgrPiQLyq6yYOjKTSQkj1CPQ9dv3/view?usp=sharing" target="_blank">‘Metabolic’</a>, a collaboration between myself (photograph) and Paul Ibram (poem) was included in the show. Watch the short film about it  <a href="https://www.youtube.com/watch?v=vPMFdpfRzLI" target="_blank">here</a>. The video quality is not great but it shows the event. <br />
+                <li data-year="2006">- ‘Uplift and Inspire, An Adbusters Intervention’, an independent exhibition event by artists on the District and Circle Lines. <a href="https://drive.google.com/file/d/1yMeBmgrPiQLyq6yYOjKTSQkj1CPQ9dv3/view?usp=sharing" target="_blank">‘Metabolic’</a>, a collaboration between myself (photograph) and Paul Ibram (poem) was included in the show. Watch a <a href="https://www.youtube.com/watch?v=vPMFdpfRzLI" target="_blank">short film about it</a>. The video quality is not great but it shows the event. <br />
                 - Stoke Newington Festival with The Others venue, paintings shown</li>
                 <li data-year="2005">- Islington Contemporary Art and Design Fair, Candid Arts Trust, March - painting, photography and mixed media photography<br />
                 - Group exhibition - The Others, Stoke Newington, October</li>
@@ -35,15 +35,15 @@ const Skill = () => {
                 <li data-year="2002">Independent Group Exhibition, Marble Arch, London</li>
                 <li data-year="2001">The Drome Music Venue Southwark, London - paintings shown</li>
                 <li data-year="2000">- Hoxton Arts Festival Group Exhibition of Painting, Photography, Prints, Sculpture, Poetry, Performance, Hoxton St, London - paintings shown; private sales of artwork<br />
-                - Public Mural painting, Metropolis Leisure Centre, Borehamwood, Hertfordshire</li>
+                - Public Mural painting, Metropolis Leisure Centre, Hertfordshire</li>
                 <li data-year="1999">Solo exhibition of paintings – Blue Room Café, Soho, London W1</li>
                 <li data-year="1995-8">Freelance artist, mural painter, picture framer, interior design collaborations, private commissions, set painting for theatre and commercials - Johannesburg, Cape Town, London</li>
-                <li data-year="1993-4">- 'Revue Noire – South Africa, Art and Literature', Dec 1993 – Feb 1994 No.11. Two photographs published in this edition on pg 5 of the publication - pg 7 of the pdf in this <a href= "https://drive.google.com/file/d/1VcVXcPxAN__bddXsIUUWpJw4ZJd4UWsL/view?usp=sharing">link</a><br />
+                <li data-year="1993-4">- 'Revue Noire – South Africa, Art and Literature', Dec 1993 – Feb 1994 No.11. Two photos in <a href= "https://drive.google.com/file/d/1VcVXcPxAN__bddXsIUUWpJw4ZJd4UWsL/view?usp=sharing" target="_blank">this edition - <strong>pg 7</strong></a><span class="small"> (p5 of the publication)</span><br />
                 - ICA Gallery, Newtown, Johannesburg - 'Drawing with Light – Photography Pushes the Limit'<br />
                 - Group Exhibition – V&A Waterfront, Cape Town<br />
                 - Freelance Photographer and Photographic Assistant</li>
                 <li data-year="1992">- Photographs in “Outrage” Group Exhibition - painting, photography, performance, Johannesburg <br />
-                - Namibia Arts Association exhibition of artists of Southern Africa - photographs shown</li>
+                - Namibia Arts Association - Artists of Southern Africa - photographs shown</li>
                 <li data-year="1991">International Invitational Photography Exhibition, Benham Studio Gallery, Seattle, USA -
                   two photographs selected for exhibition</li>
                 <li data-year="1989-92">Thusong Community & Youth Centre, Alexandra, Johannesburg - Photography teacher</li>
@@ -51,7 +51,7 @@ const Skill = () => {
                 Major in Photography & Printmaking</li>
                 <li data-year="1988-89">Assistant to photographers, Shaw Studios, Brixton, Johannesburg;<br/>
                 - Private mural painting commissions</li>
-                <p>Paintings, drawings and photographs are held in private collections in UK, Canada, South Africa, USA, France and Germany. </p>
+                <p>Paintings, drawings and photographs are held in private collections in <br />UK, Canada, South Africa, USA, France and Germany. </p>
               </ol>
             </div>
           </div>

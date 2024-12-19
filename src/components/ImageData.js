@@ -122,7 +122,7 @@
     id: 26,
     title: "Corporeal",
     subtitle: "Acrylic on wood",
-    format: "122 x 213 cm",
+    format: "2 x 122 x 106.5cm",
     image: "/assets/img/Corporeal.jpg",
   },
   {

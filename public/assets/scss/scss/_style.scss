@@ -20,7 +20,7 @@ img {
 
 a {
     color: $px-theme;
-    text-decoration: none;
+    // text-decoration: none;
 
     &:hover {
         color: darken($px-theme, 8%);
@@ -585,6 +585,9 @@ main {
     margin: 0;
     padding: 0;
     list-style: none;
+    a {
+        text-decoration: none;
+    }
     li {
         display: flex;
         position: relative;
