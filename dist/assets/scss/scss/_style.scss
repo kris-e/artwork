@@ -309,8 +309,8 @@ main {
     }
     .icon {
         margin-top: 25px;
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
         line-height: 1;
         display: flex;
@@ -612,6 +612,10 @@ main {
         border-radius: 50%;
         justify-content: center;
         font-size: 25px;
+        @include down-xsm {
+            width: 45px;
+            height: 45px;
+        }
     }
     .col {
         padding-left: 15px;
@@ -625,8 +629,11 @@ main {
         font-size: 22px;
         color: $px-dark;
         font-weight: 600;
-        @include down-sm {
-            font-size: 20px;
+        @include down-xsm {
+            font-size: 16px;
         }
+        // @include down-sm {
+        //     font-size: 20px;
+        // }
     }
 }
