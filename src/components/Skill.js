@@ -19,9 +19,9 @@ const Skill = () => {
             <div className="experience-box">
               <h3>Experience</h3>
               <ol>
-                <li data-year="2025">	Genesis Cinema Gallery, Leyton - 5 Mar - 3 April, 'Surroundings' show of paintings curated by <a href="https://www.instagram.com/darkyellowdot/" target="_blank">Dark Yellow Dot</a>, Genesis Cinema Gallery, East London<br />
+                <li data-year="2025">	- 5 Mar - 3 April, 'Surroundings', Genesis Cinema Gallery, Whitechapel, group show of paintings curated by <a href="https://www.instagram.com/darkyellowdot/" target="_blank">Dark Yellow Dot</a>, Genesis Cinema Gallery, East London<br />
                 - 12 - 29 March, 'Drawing Humans', XYZ Gallery, Chancery Lane - four works shown in Group exhibition of Life Drawing curated by <a href="https://www.instagram.com/p/DG0mttoIahL/" target="_blank">Draw Living Art</a><br /></li>
-                <li data-year="2024">	Elms Window Gallery, Leyton - <a href="https://www.instagram.com/p/C-5ZuEhIqt0/" target="_blank">solo show</a> of selected <a href="https://www.instagram.com/p/C-7hCJBMl6I/" target="_blank">paintings</a>, 20 Aug - 9 Sept, <a href="https://www.instagram.com/elmswindowgallery/" target="_blank">Elms Window Gallery</a><br />
+                <li data-year="2024">	- Elms Window Gallery, Leyton - <a href="https://www.instagram.com/p/C-5ZuEhIqt0/" target="_blank">solo show</a> of selected <a href="https://www.instagram.com/p/C-7hCJBMl6I/" target="_blank">paintings</a>, 20 Aug - 9 Sept, <a href="https://www.instagram.com/elmswindowgallery/" target="_blank">Elms Window Gallery</a><br />
                 - June, E17 Art Trail, Walthamstow, Group exhibition showing new paintings; and<br />
                 - Walthamstow Life Drawing group exhibition at Orford House, Walthamstow, London</li>
                 <li data-year="2011-22"> A long hiatus from painting as a single parent</li>
