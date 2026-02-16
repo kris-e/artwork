@@ -12,7 +12,7 @@ const Skill = () => {
             <p>
             I enjoy working with found materials, such as slate, metal or painting on wood where I follow the grain pattern to find a new world to inhabit visually. I do paint on canvas, but I find a blank white canvas a little daunting. The texture of an alternative surface like wood will give hints of the forms I go on to create.
             </p>
-            <p>I draw on the myriad of patterns found within nature, frequently using these as abstract shapes for decorative effect and experimental mark making. I like to create fantasy scenes with the themes of the life cycle and the links between all living things from microscopic creatures to mountains or jungles.</p>
+            <p>I draw on the myriad of patterns found within nature, frequently using these as abstract shapes for decorative effect and experimental mark making. I create fantasy scenes with the themes of the life cycle and the links between all living things from microscopic creatures to mountains or jungles.</p>
             <p>I often start off with little idea of what I will come out with and the artwork reveals itself to me as I continue. I find this a more intuitive way to work rather than setting out a plan beforehand. Even with plans, the artwork invariably takes a new direction as I’m working so I may as well let go and let the process take me along with it.</p>
           </div>
           <div className="col-lg-7 col-xl-6 ms-auto pt-5 pt-lg-0">
