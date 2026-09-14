@@ -6,9 +6,7 @@ const Skill = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-5">
-            <SectionTitle
-              heading={"How I work"} subHeading={"My creative practice"}
-            />
+            <SectionTitle heading={"How I work"} subHeading={"My creative practice"} />
             <p>
             I enjoy working with found materials, such as slate, metal or painting on wood where I follow the grain pattern to find a new world to inhabit visually. I do paint on canvas, but I find a blank white canvas a little daunting. The texture of an alternative surface like wood will give hints of the forms I go on to create.
             </p>
