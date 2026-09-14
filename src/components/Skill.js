@@ -41,7 +41,7 @@ const Skill = () => {
                 - Public Mural painting, Metropolis Leisure Centre, Hertfordshire</li>
                 <li data-year="1999">Solo exhibition of paintings – Blue Room Café, Soho, London W1</li>
                 <li data-year="1995-8">Freelance artist, mural painter, picture framer, interior design collaborations, private commissions, set painting for theatre and commercials - Johannesburg, Cape Town, London</li>
-                <li data-year="1993-4">- 'Revue Noire – South Africa, Art and Literature', Dec 1993 – Feb 1994 No.11. Two photos in <a href= "https://drive.google.com/file/d/1VcVXcPxAN__bddXsIUUWpJw4ZJd4UWsL/view?usp=sharing" target="_blank">this edition - <strong>pg 7</strong></a><span class="small"> (p5 of the publication)</span><br />
+                <li data-year="1993-4">- 'Revue Noire – South Africa, Art and Literature', Dec 1993 – Feb 1994 No.11. Two photos in <a href= "https://drive.google.com/file/d/1VcVXcPxAN__bddXsIUUWpJw4ZJd4UWsL/view?usp=sharing" target="_blank">this edition - <strong>pg 7</strong></a><span className="small"> (p5 of the publication)</span><br />
                 - ICA Gallery, Newtown, Johannesburg - 'Drawing with Light – Photography Pushes the Limit'<br />
                 - Group Exhibition – V&A Waterfront, Cape Town<br />
                 - Freelance Photographer and Photographic Assistant</li>
