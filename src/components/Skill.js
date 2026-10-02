@@ -8,15 +8,18 @@ const Skill = () => {
           <div className="col-lg-5">
             <SectionTitle heading={"How I work"} subHeading={"My creative practice"} />
             <p>
-            I enjoy working with found materials, such as slate, metal or painting on wood where I follow the grain pattern to find a new world to inhabit visually. I do paint on canvas, but I find a blank white canvas a little daunting. The texture of an alternative surface like wood will give hints of the forms I go on to create.
+              I enjoy working with found materials - metal, slate or often painting on wood where I follow the grain pattern to evoke its 'memory' and find a new world to inhabit visually. I like to repurpose and 'give new life' to junk such as metal sidings from scrapped appliances or old tiles of roofing slate. I do paint on canvas occasionally, but a blank white canvas can be a little daunting at times. The texture of an alternative surface will give hints of the forms I go on to create.
             </p>
-            <p>I draw on the myriad of patterns found within nature, frequently using these as abstract shapes for decorative effect and experimental mark making. I create fantasy scenes with the themes of the life cycle and the links between all living things from microscopic creatures to mountains or jungles.</p>
-            <p>I often start off with little idea of what I will come out with and the artwork reveals itself to me as I continue. I find this a more intuitive way to work rather than setting out a plan beforehand. Even with plans, the artwork invariably takes a new direction as I’m working so I may as well let go and let the process take me along with it.</p>
+            <p>I draw on the myriad patterns found within nature, frequently using these as abstract shapes for decorative effect and experimental mark making. I create fantasy scenes with the themes of the life cycle and the links between all living things from microscopic creatures to mountains or jungles.</p>
+            <p>I often start off with a rough idea of what I will come out with and the artwork reveals itself to me as I continue. I find this a more intuitive way to work rather than setting out a plan beforehand. Even with plans, the artwork invariably takes on its own direction as I’m working so I may as well let go and let the process take me along with it.</p>
           </div>
           <div className="col-lg-7 col-xl-6 ms-auto pt-5 pt-lg-0">
             <div className="experience-box">
               <h3>Experience</h3>
               <ol>
+                <li data-year="2026">	- 29 Sept - 13 Oct, 'Beyond the surface' - <a href="https://www.instagram.com/elmswindowgallery/" target="_blank">Elms Window Gallery</a>, paintings on metal together with works by Nicolas Cross, <br />
+                - June, Walthamstow Art Trail, 'Painted and Threaded' - paintings alongside textile sculptor @Harriottknuckles,<br />
+                - April - Jun, 'Muses and musings' - figure drawings and paintings at Wynwood Art District, Walthamstow;</li>
                 <li data-year="2025">	- August, <a href="https://www.instagram.com/threerooms_e17/" target="_blank">Three Rooms Gallery</a>, Walthamstow - 'Colouring In' - a group show of paintings, prints and textiles<br />
                 - 5 Mar - 3 April, 'Surroundings', Genesis Cinema Gallery, Whitechapel, group show of paintings curated by <a href="https://www.instagram.com/darkyellowdot/" target="_blank">Dark Yellow Dot</a>, Genesis Cinema Gallery, East London<br />
                 - 12 - 29 March, 'Drawing Humans', XYZ Gallery, Chancery Lane - four works shown in Group exhibition of Life Drawing curated by <a href="https://www.instagram.com/p/DG0mttoIahL/" target="_blank">Draw Living Art</a><br /></li>
